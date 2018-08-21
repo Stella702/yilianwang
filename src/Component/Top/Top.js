@@ -30,7 +30,7 @@ export default class Top extends Component {
               <div className="bpp">
                 <Button type="primary">管理首页</Button>
                 <Button type="primary">商城首页</Button>
-                <Button type="primary">帮祖中心</Button>
+                <Button type="primary">帮助中心</Button>
                 <Button type="primary">退出系统</Button>
               </div>
             </div>

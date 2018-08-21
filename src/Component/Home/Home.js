@@ -15,7 +15,6 @@ export default class Home extends Component {
         <div className="wrap">
           <div className="manWrap">
             <Left></Left>
-            {/* <Main></Main> */}
             <Switch>
               <Route exact path="/home/choosegoods" component={ChooseGoods}>
               </Route>

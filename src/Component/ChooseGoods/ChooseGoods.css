@@ -5,3 +5,71 @@
   font-size: 20px;
   padding-left: 260px;
 }
+.editForm {
+  height: 3280px;
+  width: 725px;
+  float: right;
+  background-color: #f1efe2;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.editForm .choosePhone {
+  padding-top: 30px;
+  height: 145px;
+  box-sizing: border-box;
+}
+.editForm .choosePhone .topWrap {
+  width: 700px;
+  height: 50px;
+  border-bottom: 1px solid #aac356;
+}
+.editForm .choosePhone .topWrap .top {
+  display: flex;
+  justify-content: space-between;
+}
+.editForm .choosePhone .topWrap .bottom {
+  width: 700px;
+  padding-left: 130px;
+  margin-top: 55px;
+}
+.edit {
+  margin-top: 20px;
+}
+.edit .top {
+  height: 45px;
+  border-bottom: 1px solid #aac356;
+  display: flex;
+  justify-content: space-between;
+}
+.edit .editMain .first {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.edit .editMain .editPriest {
+  width: 100px;
+}
+.edit .attribute {
+  margin-top: 10px;
+}
+.edit .attribute .shuxing {
+  padding-top: 10px;
+  width: 660px;
+  height: 727px;
+  background-color: #ffffff;
+  position: relative;
+  left: 20px;
+  padding-left: 38px;
+  padding-right: 90px;
+  box-sizing: border-box;
+}
+.edit .attribute .shuxing .setPhone div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.edit .attribute .shuxing .setPhone .phoneColor .red {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  color: red;
+}

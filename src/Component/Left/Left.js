@@ -43,7 +43,7 @@ export default class Left extends Component {
             <SubMenu key="sub2" className="item" title={<span><Icon type="appstore" /><span>订单管理</span></span>}>
               <Menu.Item key="2" className="item"><Link to="/Home/choosegoods">订单查询</Link></Menu.Item>
             </SubMenu>
-            <SubMenu key="sub3" title={<span><Icon type="setting" /><span>店铺管理</span></span>}>
+            <SubMenu key="sub3" className="item" title={<span><Icon type="setting" /><span>店铺管理</span></span>}>
 
               <Menu.Item key="5" className="item"><Link to="/Home/choosegoods">商家资料管理</Link></Menu.Item>
               <Menu.Item key="6" className="item"><Link to="/Home/choosegoods">买家须知</Link></Menu.Item>

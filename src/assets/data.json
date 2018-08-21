@@ -1,0 +1,16 @@
+{
+  "data":{
+    "Brand": [
+      "Nokia","Samsung","Apple"
+    ],
+    "Model":["Galaxy","Note","Xperia10","iphoneX"],
+    "Price":["100元","200元","300元","400元"],
+    "Shape":["直板","滑盖","翻盖"],
+    "Camera":["800","1600","2000"],
+    "Internet":["WCDMA","HSPA"],
+    "Smart":["Yes","Not"],
+    "OS":["IOS","Symbian","Android"],
+    "thickness":["8","9","10"],
+    "Resolution":["1280*720","1920*1080","2560*1440"]
+  }
+}
