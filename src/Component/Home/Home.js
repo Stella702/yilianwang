@@ -7,6 +7,7 @@ import {  Route, Switch } from 'react-router-dom';
 import './Home.css';
 import ChooseGoods from '../ChooseGoods/ChooseGoods';
 import GoodsList from '../GoodsList/GoodsList';
+import Self from '../Self/Self';
 export default class Home extends Component {
   render() {
     return (
@@ -19,6 +20,8 @@ export default class Home extends Component {
               <Route exact path="/home/choosegoods" component={ChooseGoods}>
               </Route>
               <Route path="/home/goodsList" component={GoodsList}>
+              </Route>
+              <Route path="/home/self" component={Self}>
               </Route>
             </Switch>
           </div>
