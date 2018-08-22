@@ -7,6 +7,7 @@ import {
   Redirect,
 } from 'react-router-dom';
 import Home from './Component/Home/Home';
+import Bottom from './Component/Bottom/Bottom';
 // import ChooseGoods from './Component/ChooseGoods/ChooseGoods';
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/Home" component={Home} />
           </Switch>
         </Router>
+        <Bottom></Bottom>
       </div>
     );
   }
